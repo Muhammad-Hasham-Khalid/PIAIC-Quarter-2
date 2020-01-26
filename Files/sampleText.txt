@@ -1,0 +1,18 @@
+NumPy, short for Numerical Python, is one of the most important foundational pack‐
+ages for numerical computing in Python. Most computational packages providing
+scientific functionality use NumPy’s array objects as the lingua franca for data
+exchange.
+Here are some of the things you’ll find in NumPy:
+ndarray, an efficient multidimensional array providing fast array-oriented arith‐
+metic operations and flexible broadcasting capabilities.
+Mathematical functions for fast operations on entire arrays of data without hav‐
+ing to write loops.
+Tools for reading/writing array data to disk and working with memory-mapped
+files.
+Linear algebra, random number generation, and Fourier transform capabilities.
+A C API for connecting NumPy with libraries written in C, C++, or FORTRAN.
+Because NumPy provides an easy-to-use C API, it is straightforward to pass data to
+external libraries written in a low-level language and also for external libraries to
+return data to Python as NumPy arrays. This feature has made Python a language of
+choice for wrapping legacy C/C++/Fortran codebases and giving them a dynamic and
+easy-to-use interface.
